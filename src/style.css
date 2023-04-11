@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    background-color: burlywood;
+}
+
+#card {
+    background-color:burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    margin: 2rem;
+    padding: 2rem;  
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1,h2{
+    color:cornflowerblue;   
+    text-align: center;
+    margin: auto;
+
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+
+.movie-article {
+    width: 100%;
+    border: 1px solid cornflowerblue;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+    max-width: 350px;
+    padding: 2rem;
+    margin: 2rem;
+ 
+  }
+
+  /* https://www.w3schools.com/howto/howto_css_search_button.asp */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.searchbox input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 75%;
+    background: blanchedalmond;
+  }
+  
+  /* Style the submit button */
+  form.searchbox button {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background: cornflowerblue;
+    color: blanchedalmond;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.searchbox button:hover {
+    background-color:hotpink;
+    border-color: hotpink;
+    color: blanchedalmond;
+  }
+  
+  /* Clear floats */
+  form.searchbox::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
